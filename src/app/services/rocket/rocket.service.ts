@@ -1,8 +1,8 @@
 import {Injectable} from '@angular/core';
-import {IRocket} from "./IRocket";
-import {HttpClient} from "@angular/common/http";
+import {IRocket} from './IRocket';
+import {HttpClient} from '@angular/common/http';
 
-const ROCKET_URL = "https://api.spacexdata.com/v2/rockets";
+const ROCKET_URL = 'https://api.spacexdata.com/v2/rockets';
 
 @Injectable({
   providedIn: 'root'
