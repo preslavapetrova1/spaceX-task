@@ -44,7 +44,6 @@ export class Rocket extends PIXI.Container {
     });
     this.text = new PIXI.Text(this.firstStageFuel.toString(), textStyle);
     this.text.position.set(15,0);
-
     this.rocketTop = PIXI.Sprite.from('assets/rocket_top.png');
     this.rocketTop.position.set(0, this.text.height);
 
